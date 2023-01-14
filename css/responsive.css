@@ -4,37 +4,6 @@ Medium Screen - Others
 ====================================
 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /*
@@ -43,36 +12,6 @@ Small Screen - Tablate
 ====================================
 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /*
@@ -80,34 +19,7 @@ Small Screen - Tablate
 Small Screen - Mobile
 ====================================
 */
-@media screen and (min-width: 576px) and (max-width: 767px) {	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 /*
@@ -116,34 +28,130 @@ Xtra Small Screen - Small Mobile
 ====================================
 */
 @media screen and (max-width: 576px) {
+  .logo a {
+    font-size: 25px;
+  }
 
+  .nav-link ul li {
+    margin-left: 0;
+    margin-bottom: 6px;
+    display: block;
+  }
 
+  nav {
+    align-items: flex-start;
+  }
 
+  .nav-link ul li a {
+    font-size: 15px;
+  }
 
+  header {
+    padding: 25px 0px;
+  }
 
+  .explore h2 {
+    font-size: 30px;
+  }
 
+  .button {
+    font-size: 15px;
+    padding: 15px 18px;
+  }
 
+  .list-wrapper {
+    flex-direction: column;
+    padding: 0;
+  }
 
+  .list-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
+  .list-img,
+  .list-cnt {
+    width: 100%;
+  }
 
+  .list-cnt h3 {
+    font-size: 35px;
+  }
 
+  .feature-wrapper {
+    flex-direction: column;
+  }
 
+  .feature-left,
+  .feature-right {
+    width: 100%;
+    padding: 0;
+  }
 
+  .feature-right {
+    margin-top: 35px;
+  }
 
+  .feature-left-heading h3 {
+    font-weight: 700;
+    font-size: 30px;
+  }
 
+  .feature-text h3 {
+    font-size: 30px;
+  }
 
+  .feature-text h3 span {
+    font-size: 15px;
+  }
 
+  .feature-text {
+    bottom: -40px;
+    left: -7px;
+    padding: 15px 16px;
+  }
 
+  #feature {
+    padding-top: 35px;
+  }
 
+  #fact {
+    padding-top: 75px;
+  }
 
+  .fact-heading h2 {
+    font-size: 38px;
+  }
 
+  .fact-block {
+    padding: 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
 
+  .fact-one {
+    margin-top: 32px;
+  }
 
+  #meet-team {
+    padding-top: 42px;
+  }
 
+  .meet-team-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0px;
+  }
 
+  #spons {
+    padding-top: 40px;
+  }
 
+  .spons-wrapper {
+    flex-direction: column;
+  }
 
-
-
-
+  footer {
+    padding: 50px 0px;
+  }
 }
