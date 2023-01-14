@@ -174,13 +174,14 @@ Small Screen - Mobile
   }
 
   .feature-left,
-  .feature-right {
+  .feature-right-block {
     width: 100%;
     padding: 0;
   }
 
   .feature-right {
     margin-top: 35px;
+    padding: 0;
   }
 
   .feature-left-heading h3 {
@@ -308,13 +309,14 @@ Xtra Small Screen - Small Mobile
   }
 
   .feature-left,
-  .feature-right {
+  .feature-right-block {
     width: 100%;
     padding: 0;
   }
 
   .feature-right {
     margin-top: 35px;
+    padding: 0;
   }
 
   .feature-left-heading h3 {
